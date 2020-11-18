@@ -3,13 +3,13 @@ package com.example.domain.model;
 
 
 public class UserModel {
-    private int profilePicture;
+    private String profilePicture;
     private String fullName;
     private  String email;
 
 
 
-    public UserModel(int profilePicture, String fullName, String email ){
+    public UserModel(String  profilePicture, String fullName, String email ){
         this.profilePicture = profilePicture;
         this.fullName = fullName;
         this.email = email;
@@ -19,9 +19,9 @@ public class UserModel {
 
     public UserModel (){
     }
-    public int getProfilePicture() { return profilePicture;}
+    public String getProfilePicture() { return profilePicture;}
 
-    public void setProfilePicture(int profilePicture) { this.profilePicture = profilePicture;}
+    public void setProfilePicture(String profilePicture) { this.profilePicture = profilePicture;}
 
     public String getFullName() {return fullName;}
 
